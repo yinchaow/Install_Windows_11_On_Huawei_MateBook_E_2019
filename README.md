@@ -1,7 +1,7 @@
 # How to install Windows 11 Pro on Huawei MateBook E 2019
 
-## Downloads
-
+## Prerequisites
+Download the following files:
 1. [Windows 11 Pro Inside Preview **[ARM64 version]** Installation ISO File](https://uup.rg-adguard.net/)
 2. Huawei MateBook E 2019 Official Drivers Installer: [MateBook_E_2019_OneKey_2.0.0.12.zip](https://consumer-tkbdownload.huawei.com/ctkbfm/servlet/download/downloadServlet/H4sIAAAAAAAAAD2QW0vDQBCF_8s-lzKz9_hkbgsiGiH1OWyym7pYk5ImSiv-dzcYZJ4-5hzOmfkmy8VPh-vZkztCyY648WvYUEbsw8k_248Vn-zss3F8b8qGAiZNNfhHf23oHuIg3d_CeTO82PktGkRPLTDHRA8dR2h13wpQmrd953SnXVS34fbgorSu7muUgIxK1GtuN3k7h3E4hDU7rhLOgAMCwI5cwnGw8zKtrZhMuQQquBZ5ioblPFEmZ5hLVYrSZKpMVMGM5plURcGy3GAGgiGmhhko5V-J7eK6ivhpT8G9_n9lnhb_8wsAkn0nJwEAAA%3D%3D.zip)
 3. [Rufus](https://rufus.ie/)
