@@ -39,7 +39,7 @@ DISM /Image:"C:\ProgramData\Huawei\Driver\OneKey Driver\temp" /Add-Driver /Drive
 ```
 4. Unmount the boot.wim image and commit the changes. In the elevated command prompt window, run the following command:
 ```cmd
-DISM /unmount-Wim /MountDir:"C:\ProgramData\Huawei\Driver\OneKey Driver\temp" /commit
+DISM /Unmount-Wim /MountDir:"C:\ProgramData\Huawei\Driver\OneKey Driver\temp" /commit
 ```
 5. Make the same changes to the `U:\sources\install.wim` image. Make sure to commit the changes. 
 
