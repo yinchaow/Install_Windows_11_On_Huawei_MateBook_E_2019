@@ -21,7 +21,7 @@ DISM /Mount-Wim /WimFile:"C:\ProgramData\Huawei\Driver\OneKey Driver\boot.wim" /
 4. Copy the directory `C:\ProgramData\Huawei\Driver\OneKey Driver\temp\Windows/System32/DriverStore` which contains all the matebook drivers we need to `C:\ProgramData\Huawei\Driver\OneKey Driver`. Now the directory should be `C:\ProgramData\Huawei\Driver\OneKey Driver\DriverStore`.
 5. Unmount the boot.wim image and discard the changes. In the elevated command prompt window, run the following command:
 ```cmd
-DISM /unmount-Wim /MountDir:"C:\ProgramData\Huawei\Driver\OneKey Driver\temp" /discard
+DISM /Unmount-Wim /MountDir:"C:\ProgramData\Huawei\Driver\OneKey Driver\temp" /discard
 ```
 Now the *temp* directory should be empty.
 
