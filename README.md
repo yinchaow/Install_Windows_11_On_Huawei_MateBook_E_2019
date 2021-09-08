@@ -11,7 +11,7 @@ Download the following files:
 Use rufus to make the installation flash drive.
 
 
-## Get the MateBook Drivers
+## Get the MateBook E 2019 Drivers
 1. Extract MateBook_E_2019_OneKey_2.0.0.12.zip and install.
 2. Find boot.wim in `C:\ProgramData\Huawei\Driver\OneKey Driver`.
 3. Make a directory named *temp* in `C:\ProgramData\Huawei\Driver\OneKey Driver`, which is `C:\ProgramData\Huawei\Driver\OneKey Driver\temp`.
