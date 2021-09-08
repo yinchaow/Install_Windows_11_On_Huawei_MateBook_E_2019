@@ -49,9 +49,9 @@ DISM /unmount-Wim /MountDir:"C:\ProgramData\Huawei\Driver\OneKey Driver\temp" /c
 2. Plugin the flash drive and start the installation, until you see "This PC can't run Windows 11".
 3. Press `Shift`+`F10`, and it will open a command prompt window. Type in **regedit** and press enter.
 4. In the Registry Editor, make the following settings:
-  - Go to `Computer\HKEY_LOCAL_MACHINE\SYSTEM\Setup`. Right click on **Setup** and click New > Key. Name it **LabConfig**.
-  - Click on **LabConfig**, then right click on the right pane, and click New > DWORD (32-bit Value). Name it **BypassTPMCheck**. Double click on **ByPassTPMCheck** and change the Value data to **1**, and press OK.
-  - Create another DWORD and change the Value data to 1 just like the above step and name it **BypassSecureBootCheck**.
+    - Go to `Computer\HKEY_LOCAL_MACHINE\SYSTEM\Setup`. Right click on **Setup** and click New > Key. Name it **LabConfig**.
+    - Click on **LabConfig**, then right click on the right pane, and click New > DWORD (32-bit Value). Name it **BypassTPMCheck**. Double click on **ByPassTPMCheck** and change the Value data to **1**, and press OK.
+    - Create another DWORD and change the Value data to 1 just like the above step and name it **BypassSecureBootCheck**.
 5. Close the Registry Editor and the command prompt.
 6. Click on the Back button where you left off at the "This PC can't run Windows 11" message, and continue the installation.
 
@@ -59,3 +59,4 @@ DISM /unmount-Wim /MountDir:"C:\ProgramData\Huawei\Driver\OneKey Driver\temp" /c
 ## References
 1. [Huawei Matebook E 2019 - ARM64 Windows 10 Drivers](https://community.spiceworks.com/topic/2256759-huawei-matebook-e-2019-arm64-windows-10-drivers)
 2. [How To Mount and Update Windows Image Files (WIM)](https://www.kjctech.net/how-to-mount-and-update-windows-image-files-wim/)
+3. [How to Bypass Secure Boot & Trusted Platform Module to Install Windows 11](https://www.majorgeeks.com/content/page/bypass_tpm.html)
